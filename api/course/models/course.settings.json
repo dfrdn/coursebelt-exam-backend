@@ -49,6 +49,9 @@
     },
     "image": {
       "type": "string"
+    },
+    "video_preview": {
+      "type": "string"
     }
   }
 }
