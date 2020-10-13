@@ -53,6 +53,9 @@
       "via": "users",
       "plugin": "users-permissions",
       "configurable": false
+    },
+    "courses": {
+      "collection": "course"
     }
   }
 }
