@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_custom_topics",
+  "info": {
+    "name": "Topic",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "video_url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_custom_modules",
+  "info": {
+    "name": "module",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.topic"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
