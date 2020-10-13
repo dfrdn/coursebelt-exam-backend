@@ -26,11 +26,6 @@
       "type": "uid",
       "targetField": "title"
     },
-    "topics": {
-      "type": "component",
-      "repeatable": true,
-      "component": "custom.custom-field"
-    },
     "status": {
       "type": "enumeration",
       "enum": [
@@ -52,6 +47,11 @@
     },
     "video_preview": {
       "type": "string"
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.module"
     }
   }
 }
