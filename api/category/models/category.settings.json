@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "categories",
   "info": {
-    "name": "category"
+    "name": "category",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "name": {
@@ -16,9 +18,9 @@
       "type": "uid",
       "targetField": "name"
     },
-    "products": {
+    "courses": {
       "via": "categories",
-      "collection": "product",
+      "collection": "course",
       "dominant": true
     }
   }
